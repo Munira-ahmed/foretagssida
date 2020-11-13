@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+/*Header*/
+header{
+    padding: 10vh;
+    text-align: center;
+}
+
+/*nav*/
+ul{
+    list-style-type: none;
+    flex-direction: row; 
+    background-color: darkred;
+    margin: 0; 
+    width: 100%;
+   
+    
+}
+li{
+    display: flex;
+    list-style: none;
+}
+a{
+    padding: 2vh;
+    text-decoration: none;
+    color: black;
+    
+}
+
+li a:hover{
+    padding: 1vh;
+    margin-top: 1px;
+    color:white;
+}
+/*struktur*/
+

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+}
+/*nav*/
+ul{
+    list-style-type: none;
+    flex-direction: row; 
+    background-color: darkred;
+    margin: 0; 
+}
+li{
+    display: flex;
+    list-style: none;
+}
+a{
+    padding: 2vh;
+    text-decoration: none;
+    color: black;
+    
+}
+
+li a:hover{
+    padding: 1vh;
+    margin-top: 1px;
+    color:crimson;
+}
+
+/*HEADER*/
+header{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding:10vh;
+    text-align: center;
+    background-image: url("pizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 8px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: darkgreen;
+}
+
+/*MAIN*/
+section{
+    display: flex;
+    padding: 30%;
+
+}
+
+/*kontakt info section*/
+/*använd border-radius,background, padding, wid och height*/
+#contact{
+    
+    background: darkolivegreen;
+    text-align: center;
+   
+}
+
+#tips{
+    background-image: url("riktigpizza.jpg");
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    text-indent: 10%;
+    
+}
+article{
+ background-color:white;
+ width: 50%;
+}
+
+
+footer{
+    height: 10vh;
+    background-color: grey;
+    margin: 0;
+}
+.row {
+   display: flex;
+   flex-direction: row;
+}
+#image{
+    width: 50%;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;  
+}
+
+section{
+    display: block;
+    width: 100%;
+    
+}
+/*nav*/
+ul{
+    list-style-type: none;
+    flex-direction: row; 
+    background-color: darkred;
+    margin: 0; 
+    width: 100%;
+   
+    
+}
+li{
+    display: flex;
+    list-style: none;
+}
+a{
+    padding: 2vh;
+    text-decoration: none;
+    color:white;
+    
+}
+
+li a:hover{
+    background-color: brown;
+    color:black;
+}
+header{
+    padding: 10vh;
+    text-align: center;
+}
+
+div{
+    width: 50%;
+}
+img{
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+}
+footer{
+    background-color: burlywood;
+    width: 100%;
+    padding: 5vh;
+}

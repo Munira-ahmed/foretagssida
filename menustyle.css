@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+}
+header{
+    padding: 10vh;
+}
+
+/*nav*/
+ul{
+    list-style-type: none;
+    flex-direction: row; 
+    background-color: darkred;
+    margin: 0; 
+}
+li{
+    display: flex;
+    list-style: none;
+}
+a{
+    padding: 2vh;
+    text-decoration: none;
+    color: black;
+    
+}
+
+li a:hover{
+    padding: 1vh;
+    margin-top: 1px;
+    color:crimson;
+}
+
+/*välja egen pizza*/
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 30%;
+    background-color: wheat;
+}
+
+#resultat{
+    flex-direction: column;
+    padding: 3vh;
+}
+form{
+    padding: 5vh;
+}
+
+/*Meny och rekommendationer*/
+
+
+div{
+    display: flex;
+    padding: 10vh;
+    
+}
+footer{
+    background-color: thistle;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+/*här kan jag använda float på bilderna jag lägger in i de olika divarna (bildgallerian) i meny vill jag att bilden ska ta 100% av diven.*/
