@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0em;
+ overflow-x: hidden;
+}
+/*nav*/
+ul{
+  list-style-type: none;
+  flex-direction: row;
+  background-color: darkred;
+  margin: 0;
+}
+ li{
+  display: flex;
+  list-style: none;
+}
+a{
+  padding: 2vh;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+  background-color: brown;
+  color: white;
+}
+
+/*HEADER*/
+header {
+  
+  font-family: "Pacifico", cursive;
+  padding: 15vh;
+  background-color: whitesmoke;
+}
+
+header h1 {
+  font-size: 5rem;
+  letter-spacing: 8px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: darkgreen;
+  text-align: center;
+}
+
+/*MAIN*/
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+  padding: 12%;
+  padding-right: 7em;
+    text-align: center;
+    display: block;
+    text-shadow: 2px 2px darkgreen;
+    font-size: 3rem;
+    font-weight: bolder;
+  
+}
+#extra{
+  display: flex;
+}
+
+/*kontakt info section*/
+/*använd border-radius,background, padding, wid och height*/
+#contact {
+  background-color: darkolivegreen;
+  width: 30%;
+  
+}
+#find{
+  height: 50%;
+  
+  
+}
+h2{
+  text-align: center;
+  padding: 4vh;
+}
+p{
+  text-align: center;
+}
+#tips {
+  background-image: url("riktigpizza.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: black;
+}
+
+article {
+  background-color: white;
+  height: 10vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+#image {
+  width: 50%;
+}
+#text {
+  width: 50%;
+}
+
+footer {
+  height: 20vh;
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+/*Banner*/
+#columner{
+  column-count: 3;
+  column-gap: 1vw;
+  padding:5vh;
+  height: 20vh;
+  
+}
+
+#val a:hover{
+  color: brown;
+  background-color:white ;
+}
+#val a{
+   font-weight: bolder;
+}
+#val{
+  display: flex;
+
+}

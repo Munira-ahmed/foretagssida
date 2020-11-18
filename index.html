@@ -2,33 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
 </head>
 <body>
-    <div id="contact">kontakt & plats info</div>
+ 
     <header>
         <h1>Pizza4Life</h1>
-
+<!--Kanske det blir bättre med en stor logo istället för bilderna i headern-->
     </header>
-    <nav>
-        <ul>
-            <li class="container">
-                <a href="menu.html">Meny</a>
-                <a href="omoss.html">Om oss</a>
-                <a href="pictures.html">Bildgalleri</a>
+    <main>  <nav>
+        <ul class="meny">
+            <li class="meny">
+                <a class="meny" href="menu.html">Meny</a>
+                <a class="meny" href="omoss.html">Om oss</a>
+                <a class="meny" href="pictures.html">Bildgalleri</a>
             </li>
         </ul>     
     </nav>
 
-        <section id="tips">TIPS OCH MENY</section>
-        <div class="row">
-            <section id="image">bild</section>
-            <article>text</article>
-        </div>
-   
+        <div id="extra" class="row"> <section id="tips"> <a href="menu.html">
+             TIPS OCH MENY</a></section>   
+             <div id="contact"> <h2> kontakt & plats info</h2> 
+             <a href="https://www.google.se/maps"><img id="find" src="hittaoss.png" alt="error"></a> </div>
+             </div> 
+        
+        <banner>
+            <!-- <ul class="row">
+                <li>
+                    <a href="https://www.foodora.se/">FOODORA</a>
+                    <a href="https://www.ubereats.com/se">UBER EATS</a>
+                </li>
+                <li>
+                    <a href="https://www.foodora.se/">FOODORA</a>
+                     <a href="https://www.ubereats.com/se">UBER EATS</a>
+                </li>
+                <li>
+                    <a href="https://www.ubereats.com/se">UBER EATS</a>
+                </li>
 
-    <footer>footer</footer>  
+            </ul>-->
+           <div id="columner"><h2>Få din pizza hemkörd!</h2>
+        <p>Använd Foodora eller Uber eat om du bor i Göteborg. Du kan även använda Wolt om du bor i Stockholm </p>
+         <li id="val">
+            <a href="https://www.foodora.se/"> FOODORA</a>
+            <a href="https://www.ubereats.com/se">UBER EATS</a>
+            <a href="">WOLT</a>
+         </li>
+      </div>
+          
+        </banner>
+  
+   <!--Kanske det skulle vara bättre med en bannder istället för dem två articlarna. I bannern ska personerna kunna beställa från fodora, uber eat osv-->
+
+    <footer></footer>  
 </body>
 </html>
