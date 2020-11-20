@@ -1,7 +1,8 @@
 * {
   margin: 0em;
   font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 /*Header*/
@@ -18,7 +19,6 @@ ul {
   list-style-type: none;
   flex-direction: row;
   background-color: darkred;
-  margin: 0;
   width: auto;
 }
 li {
@@ -59,9 +59,6 @@ footer img {
 #media {
   justify-content: center;
 }
-p {
-  text-align: center;
-}
 
 /*bilderna*/
 
@@ -77,15 +74,10 @@ p {
   width: 100%;
 }
 
-img {
+section img {
   width: 100%;
   height: auto;
   padding: 3vh;
-}
-
-.kommentar {
-  padding: 4vh;
-  text-align: center;
 }
 
 #follow {
@@ -93,7 +85,14 @@ img {
   text-align: center;
   justify-content: center;
   justify-self: center;
-  width: 100%;
+  width: auto;
   padding: 3vh;
   background-color: whitesmoke;
+}
+
+/*kommentarerna*/
+
+section p{
+  text-align: center;
+  padding: 4vh;
 }
