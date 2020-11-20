@@ -16,7 +16,6 @@ ul {
   list-style-type: none;
   flex-direction: row;
   background-color: darkred;
-  margin: 0;
   width: auto;
 }
 li {
@@ -40,28 +39,24 @@ main {
   display: flex;
   flex-direction: row;
 }
-#box{
-   padding: 7vh; 
+#box {
+  padding: 7vh;
 }
-label{
-    padding: 1vh;
+label {
+  padding: 1vh;
 }
 
 form {
   display: flex;
   padding: 5vh;
-  flex-direction:column;
+  flex-direction: column;
 }
-
-/*Meny och rekommendationer*/
-
-
 
 section {
   display: flex;
   flex-direction: column;
 }
-/*här kan jag använda float på bilderna jag lägger in i de olika divarna (bildgallerian) i meny vill jag att bilden ska ta 100% av diven.*/
+
 
 footer {
   height: 20vh;
@@ -69,29 +64,26 @@ footer {
   text-align: center;
 }
 img {
-    width: 30px;
-  }
-  
+  width: 30px;
+}
 
 /*bilderna, resultat*/
 
-div.bilder{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.bilder:hover {
-    border: 1px solid #777;
-  }
-  
-  div.bilder img {
-    width: 100%;
-    height: auto;
-   
-  }
-  p{
-      padding: 2vh;
-  }
- 
+div.bilder {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.bilder:hover {
+  border: 1px solid #777;
+}
+
+div.bilder img {
+  width: 100%;
+  height: auto;
+}
+p {
+  padding: 2vh;
+}
