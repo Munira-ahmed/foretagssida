@@ -1,66 +1,64 @@
-*{
-    margin: 0em;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*Header*/
-header{
-    padding: 15vh;
-    text-align: center;
-    background-color: whitesmoke;
+header {
+  padding: 15vh;
+  text-align: center;
+  background-color: whitesmoke;
 }
-header h1{
-    font-size: 3rem;
+header h1 {
+  font-size: 3rem;
 }
 /*nav*/
-ul{
-    list-style-type: none;
-    flex-direction: row; 
-    background-color: darkred;
-    margin: 0; 
-    width: auto;
-     
+ul {
+  list-style-type: none;
+  flex-direction: row;
+  background-color: darkred;
+  width: auto;
 }
-li{
-    display: flex;
-    list-style: none;
+li {
+  display: flex;
+  list-style: none;
 }
-a{
-    padding: 2vh;
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
+a {
+  padding: 2vh;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
 
-li a:hover{
-    background-color: brown;
-    color:black;
+li a:hover {
+  background-color: brown;
+  color: black;
 }
+
 /*struktur*/
-main{
-    display: block;
-    padding: 5vh;
+main {
+  display: block;
+  padding: 5vh;
 }
-h2{
-    font-weight: bolder;
-    padding: 2vh;
+h2 {
+  font-weight: bolder;
+  padding: 2vh;
 }
 
-main p{
-    padding: 1%;
-    width: 65%;
-    letter-spacing: 1px;
+main p {
+  padding: 1%;
+  width: 65%;
+  letter-spacing: 1px;
 }
 footer {
-    height: 20vh;
-    background-color: whitesmoke;
-    text-align: center;
-  }
-  footer p{
-      text-align: center;
-      width: 100%;
-  }
-  
-  img {
-      width: 30px;
-    }
-    
+  height: 20vh;
+  background-color: whitesmoke;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  width: 30px;
+}
